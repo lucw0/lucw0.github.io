@@ -1,1 +1,139 @@
-under construction
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Luca Wellmeier</title>
+</head>
+
+<body>
+<main>
+
+<h3>Luca Wellmeier's portfolio page</h3>
+<p>
+  I am a freshly graduated mathematician currently
+  searching for the right PhD program for me.
+  I am mainly interested in harmonic analysis 
+  and the mathematics behind the power of deep learning.
+  More concretely, I studied the phenomena of 
+  benign overfitting and double descent
+  via kernel methods.
+</p>
+
+<h4>Education and academic experiences</h4>
+<table>
+  <tr>
+    <td>Oct 2022 - Apr 2023</td>
+    <td>Thesis internship 
+      @ <a href="https://malga.unige.it/">Machine Learning Center Genoa (MaLGa)</a></td>
+  </tr>
+  <tr>
+    <td>Sep 2022</td>
+    <td>Summer school 
+      <a href="https://malga.unige.it/education/schools/ahaml2022">Applied Harmonic Analysis and Machine Learning</a> 
+      at MaLGa</td>
+  </tr>
+  <tr>
+    <td>Jul 2022</td>
+    <td>Conference <a href="https://wcci2022.org/">IEEE WCCI</a> in Padua (as attendee and volunteer)</td>
+  </tr>
+  <tr>
+    <td>Sep 2020 - Apr 2023</td>
+    <td>Galileian diploma and scholarship 
+      @ <a href="https://scuolagalileiana.unipd.it/">Scuola Galileiana</a></td>
+  </tr>
+  <tr>
+    <td>Sep 2020 - Apr 2023</td>
+    <td>MSc Mathematics (110/110 cum laude) 
+      @ Università degli Studi di Padova</td>
+  </tr>
+  <tr>
+    <td>Oct 2018 - May 2020</td>
+    <td>Teaching assistant for analysis and linear algebra 
+      @ Universität Bielefeld</td>
+  </tr>
+  <tr>
+    <td>Oct 2017 - May 2020</td>
+    <td>BSc Mathematics (final grade: 2.1) 
+      @ Universität Bielefeld</td>
+  </tr>
+</table>
+
+<h4>Some of my projects</h4>
+<ul>
+  <li>Galileian thesis: "Sobolev reproducing kernels on compact Lie groups"
+    (November 2023, 
+      <a href="files/galithesis-v1.pdf">PDF</a>).
+    <p>
+      My submission for obtaining the Galileian school diploma.
+      This was a field that I wanted to explore for a while.
+      It's basically a review of all the tools needed to compute
+      the reproducing kernels of Sobolev spaces on Lie groups:
+      the key is to know the eigenstructure of the Laplace-Beltrami
+      operator, 
+      which can be done on a compact Lie group by equipping it
+      with a bi-invariant Riemannian metric, studying the 
+      quadratic Casimir operator and mobilizing the Peter-Weyl theorem.
+      <em>Warning:</em> there are some inconsistencies in the current state,
+      which I didn't manage to fix before the deadline. Will be done soon!
+    </p>
+  </li>
+  <li>Master thesis: "High-capacity hypothesis spaces in statistical learning"
+    (April 2023, 
+      <a href="files/mscthesis-v1.pdf">PDF</a>, 
+      <a href="files/mscthesis-slides.pdf">slides</a>).
+    <p>
+      It was written under supervision of Ernesto De Vito and Lorenzo Rosasco at MaLGa.
+      The purpose was to study reproducing kernel Hilbert spaces
+      in the light of modern phenomena like double descent and benign overfitting.
+      Kernel methods are a classical technique in machine learning and have 
+      attracted much attention recently as a suitable study proxy for deep learning.
+      I believe it's a nice introduction to the subject.
+    </p>
+  </li>
+  <li>
+    Paper presentation: "The implicit bias of benign overfitting"
+    (<a href="https://arxiv.org/abs/2201.11489">arXiv:2201.11489</a> by Ohad Shamir)
+    in the bi-weekly statistics meeting at MaLGa 
+    (April 2023, <a href="files/shamir-benignoverfitting-implicitbias.pdf">slides</a>).
+  </li>
+  <li>
+    Presentation: "Neural ODEs and control" as part of 
+    a reading group on neural networks and differential 
+    equations at MaLGa 
+    (March 2023, <a href="files/nodes-control.pdf">slides</a>).
+  </li>
+  <li>
+    Personal project: "<em>Wiggling</em> the bandwidth" 
+      (January 2023, 
+        <a href="files/wiggle.pdf">PDF</a>,
+        <a href="https://github.com/lucw0/wiggle-bandwidth">code</a>)
+    <p>
+      In my time at MaLGa, I explored an idea about making better use of the bandwidth
+      in Matérn kernel ridge regression (and other related scale-dependent kernel methods with that kernel).
+      I found that one can tune the bandwidth with 
+      cheap computations even after running the expensive
+      least squares fit.
+      The outcomes are 
+      higher accuracy due to regularization effects that could be 
+      better than classical Tikhonov,
+      and the possibility to reduce the training set size
+      that goes into the expensive computation of the 
+      pseudoinverse.
+      I hope to study this technique theoretically in 
+      the future.
+    </p>
+  </li>
+  <li>
+    Course work:
+    "Variational inference with normalizing flows"
+    for an ML/DL course within the Galileian school
+    (November 2022, <a href="files/normalizing-flows.pdf">slides</a>).
+  </li>
+</ul>
+
+</main>
+</body>
+</html>
