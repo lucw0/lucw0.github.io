@@ -26,16 +26,15 @@ tr td {
 }
 .period {
   font-size: 8pt;
-  padding-top: 2pt; /* to compensate for the default 12pt font */
-  width: 20%;
-  min-width: 95px;
-  text-align: right;
+  margin-right: 4pt;
 }
-td ul {
+ul {
   margin: 0;
+  margin-top: 2pt;
+  margin-bottom: 10pt;
 }
-td ul li {
-  margin: 0;
+ul li {
+  margin: 2pt;
 }
 
 li {
