@@ -20,8 +20,22 @@ h4 {
   margin-bottom: 4px;
 }
 
-td {
+tr td {
   padding-right: 10px;
+  vertical-align:top;
+}
+.period {
+  font-size: 8pt;
+  padding-top: 2pt; /* to compensate for the default 12pt font */
+  width: 20%;
+  min-width: 95px;
+  text-align: right;
+}
+td ul {
+  margin: 0;
+}
+td ul li {
+  margin: 0;
 }
 
 li {
@@ -33,8 +47,3 @@ li p {
   margin-bottom: 0px;
 }
 
-td:nth-child(1) {
-  font-size: 8pt;
-  width: 20%;
-  min-width: 85px;
-}
