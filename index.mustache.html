@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <title>{{title}}</title>
+</head>
+
+<body>
+<main>
+
+<h3>{{title}}</h3>
+<div class="info-block">
+  {{#info}}
+  <span class="info-span">{{{.}}}</span>
+  {{/info}}
+</div>
+
+{{#quote}}
+<blockquote>
+  {{text}}
+  <cite>{{reference}}</cite>
+</blockquote>
+{{/quote}}
+
+{{#blocks}}
+<div>
+  <p>
+    {{#desc}}
+    {{{.}}}
+    {{/desc}}
+  </p>
+  {{#cv}}
+  <div class="cv-item">
+    {{{what}}}<br>
+    <small>{{{where}}} | {{period}}</small>
+    <ul>
+      {{#desc}}
+      <li><small>{{{.}}}</small></li>
+      {{/desc}}
+    </ul>
+  </div>
+  {{/cv}}
+</div>
+
+{{/blocks}}
+</main>
+</body>
+</html>

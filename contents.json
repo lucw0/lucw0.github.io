@@ -1,0 +1,114 @@
+{
+    "title": "Luca Wellmeier",
+    "info": [
+        "Paris, France | ",
+        "<a href=\"mailto:lucawellmeier@proton.me\">lucawellmeier@proton.me</a>"
+    ],
+    "quote": {
+        "text": "Study hard what interests you the most in the most undisciplined, irreverent and original manner possible.",
+        "reference": "Richard Feynman (1965)."
+    },
+    "blocks": [
+        {
+            "desc": [ 
+                "I am an aspiring <strong>applied mathematician</strong>",
+                "currently searching for the work environment that",
+                "fits me best.",
+                "I love harmonic analysis and probability theory",
+                "and use them as tools to unravel",
+                "the myths of deep learning and",
+                "to invent new mathematically sound",
+                "ML/DL methods.",
+                "I wrote two theses (MSc and honors college)",
+                "on the phenomena of",
+                "benign overfitting and double descent",
+                "via kernel methods as a potent study proxy",
+                "for neural nets and on their own right.",
+                "Particular focus was on Sobolev kernels."
+            ],
+            "cv": [
+                {
+                    "period": "Sep 2020 - Apr 2023",
+                    "where": "University of Padua",
+                    "what": "MSc Mathematics (110/110 cum laude)",
+                    "desc": [
+                        "Strong subjects: High-Dimensional Probability Theory, Stochastic Processes, Representation Theory, Machine and Deep Learning",
+                        "Teaching assistant for Analysis (in Italian)"
+                    ]
+                },
+                {
+                    "period": "Sep 2022 - Apr 2023",
+                    "where": "<a href=\"https://malga.unige.it/\">MaLGa</a>, University of Genoa",
+                    "what": "Thesis internship",
+                    "desc": [
+                        "Thesis: <em>High-capacity hypothesis spaces in modern statistical learning</em> (April 2023, <a href=\"files/mscthesis-v1.pdf\">PDF</a>). Supervised by Prof. E. De Vito.",
+                        "Participated in reading groups on neural differential equations and the COLT 2023 papers.",
+                        "Participated in summer school <a href=\"https://malga.unige.it/education/schools/ahaml2022\">Applied Harmonic Analysis and Machine Learning</a>."
+                    ]
+                },
+                {
+                    "period": "Sep 2020 - Apr 2023",
+                    "where": "<a href=\"https://scuolagalileiana.unipd.it/\">Scuola Galileiana</a>, University of Padua",
+                    "what": "Honors college scholarship",
+                    "desc": [
+                        "Thesis: <em>Sobolev reproducing kernels on compact Lie groups</em> (November 2023, <a href=\"files/galithesis-v1.pdf\">PDF</a>). Supervised by Prof. E. De Vito.",
+                        "Strong subjects: Machine and Deep Learning (final project: <em>Normalizing Flows</em>, <a href=\"files/normalizing-flows.pdf\">slides</a>), Mis- and Disinformation"
+                    ]
+                },
+                {
+                    "period": "Oct 2017 - May 2020",
+                    "where": "Bielefeld University",
+                    "what": "BSc Mathematics (2.1)",
+                    "desc": [
+                        "Thesis: <em>Analytic combinatorics: Generating functions in algebra and geometry</em> (May 2020). Supervised by Prof. M. Baake and Prof. C. Voll.",
+                        "Teaching assistant for various courses in Linear Algebra and Analysis."
+                    ]
+                }
+            ]
+        },
+        {
+            "desc": [
+                "I am also a capable, self-taught ",
+                "<strong>software developer</strong> ",
+                "with strong senses for clean code",
+                "and hardware efficiency.",
+                "My main tools of trade are C, C++ and Python with ",
+                "their respective ecosystems.",
+                "I have professional experiences",
+                "in GPU and graphics programming ",
+                "(especially for synthetic data generation),",
+                "academic experiences in machine and ",
+                "deep learning experimentation, ",
+                "and hobby experiences in many other areas."
+            ],
+            "cv": [
+                {
+                    "period": "Dec 2023 - ongoing",
+                    "where": "<a href=\"https://www.bioconsult-sh.de/\">BioConsult SH</a>, Husum",
+                    "what": "Software developer (freelancer) in <a href=\"https://www.bioconsult-sh.de/en/services/spacewhale\">SPACEWHALE</a> team",
+                    "desc": [
+                        "We are scaling up the results of the internship now."
+                    ]
+                },
+                {
+                    "period": "Dec 2022 - May 2023",
+                    "where": "<a href=\"https://www.bioconsult-sh.de/\">BioConsult SH</a>, Husum",
+                    "what": "Software developer (intern) in <a href=\"https://www.bioconsult-sh.de/en/services/spacewhale\">SPACEWHALE</a> team",
+                    "desc": [
+                        "Developed a pipeline of efficient tools for mass synthesization of realistic satellite imagery of whales in the ocean.",
+                        "Held a talk in July 2023 presenting my work to the whole company."
+                    ]
+                },
+                {
+                    "period": "Sep 2018 - May 2020",
+                    "where": "Bielefeld University",
+                    "what": "Software developer in the <a href=\"https://www.math.uni-bielefeld.de/~einsteigen/remathweb/\">re.math</a> project",
+                    "desc": [
+                        "Maintained and extended Dr. T. Hüls' MATLAB-based teaching software and developed its web version.",
+                        "Developed a web app for quick in-class quizzes."
+                    ]
+                }
+            ]
+        }
+    ]
+}
